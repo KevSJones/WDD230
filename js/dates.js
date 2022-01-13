@@ -1,11 +1,11 @@
-const d = new Date();
-const year = d.getFullYear();
-
-document.querySelector(
-  "currentyear"
-).textContent = year;
+let date = new Date();
+let year = date.getFullYear();
 document.getElementById(
-  "lastupdated"
+  "currentYear"
+).textContent = year;
+
+document.getElementById(
+  "lu"
 ).textContent =
   "Last Updated: " +
   document.lastModified;

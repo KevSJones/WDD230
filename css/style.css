@@ -1,12 +1,22 @@
+body {
+  max-width: 500px;
+}
 header {
-  grid-template-columns: 1fr 1fr;
-  background-color: grey;
+  display: flex;
+  background-color: lightgrey;
+  border-radius: 10px;
 }
 header img {
   height: 200px;
+  padding: 10px;
+}
+h2 {
+  align-content: center;
 }
 footer {
   grid-template-columns: 1fr 200px;
   justify-items: left;
   background-color: rgb(163, 14, 14);
+  border-radius: 10px;
+  text-align: center;
 }
