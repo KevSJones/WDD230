@@ -1,0 +1,12 @@
+header {
+  grid-template-columns: 1fr 1fr;
+  background-color: grey;
+}
+header img {
+  height: 200px;
+}
+footer {
+  grid-template-columns: 1fr 200px;
+  justify-items: left;
+  background-color: rgb(163, 14, 14);
+}
