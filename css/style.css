@@ -1,17 +1,22 @@
 body {
-  max-width: 500px;
+  max-width: 680px;
+  text-align: center;
 }
 header {
   display: flex;
-  background-color: lightgrey;
+  background-color: rgb(163, 14, 14);
   border-radius: 10px;
+  align-items: center;
+  font-size: 24px;
+  justify-content: center;
 }
+
 header img {
   height: 200px;
   padding: 10px;
 }
-h2 {
-  align-content: center;
+ul {
+  text-align: left;
 }
 footer {
   grid-template-columns: 1fr 200px;
@@ -19,4 +24,5 @@ footer {
   background-color: rgb(163, 14, 14);
   border-radius: 10px;
   text-align: center;
+  padding: 10px;
 }
