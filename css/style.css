@@ -1,28 +1,29 @@
 body {
-  justify-content: center;
+  margin: auto;
   max-width: 680px;
   text-align: center;
+  font-family: "Abril Fatface",
+    sans-serif;
 }
 header {
   display: flex;
-  background-color: rgb(163, 14, 14);
+  background-color: rgb(21, 21, 66);
   border-radius: 10px;
   align-items: center;
   font-size: 24px;
   justify-content: center;
-  font-family: "Abril Fatface",
-    sans-serif;
 }
 header h1 {
   padding: 75px;
+  color: white;
 }
 
 header img {
   height: 200px;
   padding: 10px;
+  border-radius: 10px;
 }
 main h1 {
-  border-bottom: black;
   border-style: solid;
   border-radius: 10px;
 }
@@ -30,10 +31,9 @@ ul {
   text-align: left;
 }
 footer {
-  grid-template-columns: 1fr 200px;
-  justify-items: left;
-  background-color: rgb(163, 14, 14);
+  background-color: rgb(21, 21, 66);
   border-radius: 10px;
   text-align: center;
   padding: 10px;
+  color: white;
 }
