@@ -1,4 +1,5 @@
 body {
+  justify-content: center;
   max-width: 680px;
   text-align: center;
 }
@@ -9,11 +10,21 @@ header {
   align-items: center;
   font-size: 24px;
   justify-content: center;
+  font-family: "Abril Fatface",
+    sans-serif;
+}
+header h1 {
+  padding: 75px;
 }
 
 header img {
   height: 200px;
   padding: 10px;
+}
+main h1 {
+  border-bottom: black;
+  border-style: solid;
+  border-radius: 10px;
 }
 ul {
   text-align: left;
