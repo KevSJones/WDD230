@@ -5,23 +5,27 @@ body {
   font-family: "Abril Fatface",
     sans-serif;
 }
-header {
+header,
+footer {
   display: flex;
   background-color: rgb(21, 21, 66);
   border-radius: 10px;
   align-items: center;
   font-size: 24px;
   justify-content: center;
-}
-header h1 {
-  padding: 75px;
   color: white;
+}
+footer {
+  display: grid;
 }
 
 header img {
-  height: 200px;
-  padding: 10px;
+  width: 150px;
+  height: auto;
+  box-shadow: 0 0 30px #999;
   border-radius: 10px;
+  padding: 0;
+  justify-items: right;
 }
 main h1 {
   border-style: solid;
