@@ -1,0 +1,94 @@
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/*header rules*/
+header {
+  background-color: #132361;
+  color: rgb(180, 160, 88);
+  padding: 1rem 2%;
+}
+
+header h1,
+header h2 {
+  margin: 0;
+  text-align: center;
+}
+
+/*Typography rules*/
+h1,
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+h2,
+h3,
+p {
+  font-family: "Roboto", sans-serif;
+}
+
+/*main rules*/
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+/*section rules*/
+
+section {
+  background-color: lightblue;
+  border-radius: 10px;
+  margin: 2%;
+}
+
+section h2 {
+  background: rgb(71, 71, 71);
+  color: white;
+  border-radius: 10px 10px 0 0;
+  padding: 1.5%;
+  margin: 0;
+  text-align: center;
+}
+
+section h3,
+section div {
+  text-align: center;
+  color: black;
+  margin: 0;
+}
+
+section p {
+  margin: 2%;
+  color: black;
+}
+
+section div a {
+  text-decoration: none;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+section div a:hover {
+  background-color: #1f2041;
+  color: #1340e2;
+  padding: 2px;
+}
+
+/*figure rule*/
+figure img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/*footer rule*/
+footer {
+  background-color: #132361;
+  color: rgb(180, 160, 88);
+  padding: 1rem 2%;
+  text-align: center;
+}
