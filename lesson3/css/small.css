@@ -95,21 +95,38 @@ main ul {
   margin: -50px 0 60px;
 }
 
-.title-color {
-  background-color: #8c705f;
+.header1 {
+  background-color: #1baba4;
   color: white;
   padding: 20px;
   border-radius: 20px;
   text-align: center;
 }
 
-.accents-color {
-  background-color: #bfd1e5;
+.nav1 {
+  background-color: #ab410a;
   padding: 20px;
   border-radius: 20px;
   text-align: center;
 }
-
+.nav2 {
+  background-color: #f77f40;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.nav3 {
+  background-color: #40f7ee;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+.footer1 {
+  background-color: #ab410a;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
 footer {
   background-color: #ab410a;
   color: white;
