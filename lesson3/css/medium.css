@@ -28,4 +28,10 @@
   /*----------- MAIN --------------*/
 
   /*----------- FOOTER --------------*/
+  footer h2 {
+    font-size: 1.3rem;
+  }
+  footer p {
+    font-size: 1.2rem;
+  }
 } /* end of media query */

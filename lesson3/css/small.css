@@ -20,7 +20,7 @@ body {
 /*----------- HEADER --------------*/
 header {
   padding: 0.5rem 2%;
-  background-color: #ddd;
+  background-color: rgb(189, 250, 250);
 }
 header img {
   float: left;
@@ -72,9 +72,15 @@ main {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #ddd;
+  background-color: rgb(189, 250, 250);
   padding: 0.5rem 2%;
   text-align: center;
+}
+footer h2 {
+  font-size: 0.9rem;
+}
+footer p {
+  font-size: 0.8rem;
 }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
