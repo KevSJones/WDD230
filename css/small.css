@@ -8,12 +8,12 @@ body {
 header,
 footer {
   display: flex;
-  background-color: rgb(21, 21, 66);
+  background-color: #078c7f;
   border-radius: 10px;
   align-items: center;
   font-size: 24px;
   justify-content: center;
-  color: white;
+  color: #0d0d0d;
 }
 footer {
   display: grid;
@@ -22,7 +22,8 @@ footer {
 header img {
   width: 150px;
   height: auto;
-  box-shadow: 0 0 30px #999;
+  margin: 30px;
+  box-shadow: 0 0 30px #24bf77;
   border-radius: 10px;
   padding: 0;
   justify-items: right;
@@ -30,14 +31,14 @@ header img {
 main h1 {
   border-style: solid;
   border-radius: 10px;
+  color: #078c7f;
 }
 ul {
   text-align: left;
 }
 footer {
-  background-color: rgb(21, 21, 66);
+  background-color: #078c7f;
   border-radius: 10px;
   text-align: center;
   padding: 10px;
-  color: white;
 }
