@@ -17,7 +17,35 @@ body {
 }
 header {
   background-color: #ffc65c;
+  padding: 5px 0;
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.logo {
+  width: 100px;
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+header h1 {
+  font-size: 3rem;
+  grid-column: 2/4;
+}
+header h2 {
+  font-size: 1.5rem;
+  grid-column: 2/4;
+
+}
+header h3 {
+  grid-column: 1/4;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2vw;
+  width: 80%;
+  margin: 2rem 10% 2rem 10%;
 }
 nav {
   background-color: #206080;
@@ -33,6 +61,7 @@ nav ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  font-size: 1.8rem;
 }
 nav ul li a {
   display: block;
@@ -69,5 +98,25 @@ nav ul.open {
   display: block;
 }
 .hero {
-  display: flex;
+  background-image: url("../images/avon-town-hall-park.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2vw;
+  text-align: center;
+  width: 80%;
+  margin: 2rem 10% 2rem 10%;
+}
+.thesocials {
+  display: none;
+}
+section {
+  border:1px solid black;
+}
+footer {
+  background-color: #ffc65c;
+  
 }

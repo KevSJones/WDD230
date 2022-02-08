@@ -1,5 +1,14 @@
 @media only screen and (min-width: 64rem) {
   nav ul li a {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
   }
+  .thesocials {
+    display: flex;
+    
+  }
+  .thesocials img {
+    justify-content: center;
+    margin: 1em;
+  }
+
 } /* end large */

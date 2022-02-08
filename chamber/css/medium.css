@@ -1,10 +1,14 @@
 @media only screen and (min-width: 40rem) {
+  .logo {
+    width: 100%;
+
+  }
   nav button {
     display: none;
   }
   nav ul#primaryNav {
     display: flex;
-    margin-left: 2vw;
+    margin-left: 0;
     border-left: 1px solid
       rgba(0, 0, 0, 0.3);
     justify-content: center;
@@ -13,5 +17,13 @@
     border: none;
     border-right: 1px solid
       rgba(0, 0, 0, 0.3);
+  }
+  .thesocials {
+    display: block;
+    
+  }
+  .thesocials img {
+    justify-content: center;
+    margin-top: 1em;
   }
 } /* end medium */
