@@ -33,11 +33,16 @@ header {
 header h1 {
   font-size: 3rem;
   grid-column: 2/4;
+  grid-row: 1/2;
 }
 header h2 {
   font-size: 1.5rem;
   grid-column: 2/4;
+  grid-row: 2/3;
 
+}
+header .thesocials {
+  display: none;
 }
 header h3 {
   grid-column: 1/4;
@@ -46,6 +51,11 @@ header h3 {
   padding: 1rem 2vw;
   width: 80%;
   margin: 2rem 10% 2rem 10%;
+}
+div#reminder {
+  background-color: blue;
+  grid-column: 1/4;
+  grid-row: 4/5;
 }
 nav {
   background-color: #206080;
@@ -110,9 +120,7 @@ nav ul.open {
   width: 80%;
   margin: 2rem 10% 2rem 10%;
 }
-.thesocials {
-  display: none;
-}
+
 section {
   border:1px solid black;
 }
