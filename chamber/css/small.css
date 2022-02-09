@@ -41,7 +41,10 @@ header h2 {
   grid-row: 2/3;
 
 }
-header .thesocials {
+.title {
+  margin: 10px;
+}
+.thesocials {
   display: none;
 }
 header h3 {
