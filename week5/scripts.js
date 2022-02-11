@@ -1,19 +1,19 @@
 document
   .getElementById("mybtn")
   .addEventListener(
-    "click",
-    function () {
+    "click", function() {
       let newchapter =
         document.getElementById(
           "favchap"
         ).value;
-      console.log(newchapter);
+      
       if (newchapter !== "") {
         const newBTN =
           document.createElement(
             "button"
           );
-        newBTN.innerHTML = "\u274c";
+        
+          newBTN.innerHTML = "\u274c";
 
         const newLI =
           document.createElement("li");
