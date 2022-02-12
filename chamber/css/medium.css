@@ -29,7 +29,9 @@
     margin: 50px;
     
   }
-  
+  div#reminder {
+    font-size: 2.0rem;
+  }
   main {
     display: grid;
     grid-template-columns: 1fr 1fr;
