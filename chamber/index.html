@@ -34,12 +34,17 @@
 
 
   <body>
+    <figure>
+      <img class="newhero" src="images/heroSrc.jpeg" alt="new hero image" sizes="100vw" srcset="images/heroSrc400.jpeg 400w,images/heroSrc800.jpeg 800w,images/heroSrc1136.jpeg 1136w">
+    </figure>
+    
 
 <div id="date">This is the current day!</div>
     <header>
       
       <a href="index.html"><img src="images/avonChamberOfCommerce.png" class="logo" alt="avon logo" ></a>
       <div class="title"><h1>Avon Chamber of Commerce</h1>
+        
       <h2>Growing with the Community</h2></div>
       <div class="thesocials"><a href="facebook.com"><img src="images/fb.png" alt="FaceBook"></a>
       <a href="instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
@@ -69,18 +74,35 @@
           <button class="btn">Join Now!</button>
         </div>
       </section>
-      <section class="events"><h2>Events</h2></section>
-      <section class="weather"><h2>Weather</h2></section>
+      
+      <section class="events"><div class="event-content"></div><h2>Events</h2></section>
+
+
+      <section class="weather">
+        <div class="weather-content">
+          <h2>Weather</h2>
+          <p>Temperature: <span id="temp">35</span>&deg;F</p>
+          <p>Wind: <span id="wind">15</span>mph</p><p><span id="chill"></span></p></div></section>
+      
+      
       <section class="news"><h2>News Release</h2></section>
+      
       <section class="spotlight1"><h2>Spotlight 1</h2></section>
+      
       <section class="spotlight2"><h2>Spotlight 2</h2></section>
+      
       <section class="join"><h2>Join</h2></section>
       
     
      
     </main>
     <footer>
-      <img src="images/avonChamberOfCommerce.png" alt="">
+      <h2>
+        &copy;
+        <span id="currentYear"></span> |
+        Kevin Jones | BYU-I | WDD230
+      </h2>
+      <img class="footerimg" src="images/avonChamberOfCommerce.png" alt="logo">
     </footer>
   </body>
   <script src="js/scripts.js"></script>

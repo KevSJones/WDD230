@@ -5,6 +5,7 @@
   .thesocials {
     display: flex;
     flex-flow:row;
+    margin: 8px;
     
   }
   .thesocials img {

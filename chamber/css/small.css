@@ -20,33 +20,34 @@ header {
   padding: 5px 0;
   margin: 0;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   align-items: center;
   justify-content: center;
 
 
 }
 .logo {
-  width: 90%;
-  grid-column: 1/2;
-  grid-row: 1/3;
-  margin: 0;
+  padding: 1rem 2vw;
+  text-align: center;
+  width: 60%;
+  margin: 0 20% 0 20%;
+
 }
 header h1 {
   font-size: 3rem;
-  grid-column: 2/4;
   grid-row: 1/2;
   text-align: center;
+  margin: 0;
 }
 header h2 {
   font-size: 1.5rem;
-  grid-column: 2/4;
-  grid-row: 2/3;
+  grid-row: 3/4;
   text-align: center;
+  margin: 0;
 
 }
-.title {
-  margin: 10px;
+.newhero {
+  width: 100%;
 }
 .thesocials {
   display: none;
@@ -133,7 +134,21 @@ nav ul.open {
 section {
   border:1px solid black;
 }
+.weather {
+  background-color:#206080 ;
+}
+.weather-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin: 2%;
+  padding: 1rem;
+}
 footer {
   background-color: #ffc65c;
+  display: flex;
+  align-items:baseline; 
   
+}
+footer h2 {
+  margin: 2%;
 }
