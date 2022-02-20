@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+body img[data-src] {
+  filter: blur(0.2em);
+  opacity: 0.5;
+}
+
+body img {
+  filter: blur(0em);
+  opacity: 1;
+  transition: all 0.7s;
+  border-radius: 20px;
+}
