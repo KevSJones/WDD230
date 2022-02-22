@@ -56,8 +56,8 @@ header h2 {
 }
 div#date {
   text-align: center;
-  background-color: rgb(7, 14, 7);
-  color: aqua;
+  background-color: #206080;
+  font-size: xx-large;
 }
 div#reminder {
   background-color: #ffc65c;;
@@ -126,13 +126,43 @@ nav ul.open {
   background-position: center center;
 }
 .hero-content {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 1rem 2vw;
+  border-radius: 20px;
   text-align: center;
   width: 80%;
   margin: 2rem 10% 2rem 10%;
 }
-
+.join {
+  background-image: url("../images/join.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.events {
+  background-image: url("../images/events.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.news {
+  background-image: url("../images/news.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.spotlight1 {
+  background-image: url("../images/spotlight1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.spotlight2 {
+  background-image: url("../images/spotlight2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
 section {
   border:1px solid black;
   background-color: #206080;
@@ -140,7 +170,8 @@ section {
 
 
 section div {
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
   text-align: center;
   margin: 2%;
   padding: 1rem;
