@@ -11,7 +11,6 @@ html {
   box-sizing: border-box;
 }
 body {
-  max-width: 960px;
   margin: auto;
   font-family: "Dongle", sans-serif;
 }
@@ -55,11 +54,10 @@ header h2 {
 .thesocials {
   display: none;
 }
-div#date {
-  grid-column: 1/4;
+h2 div#date {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.7);
-  
+  background-color: rgb(7, 14, 7);
+  color: aqua;
 }
 div#reminder {
   background-color: #ffc65c;;
@@ -120,6 +118,7 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
+
 .hero {
   background-image: url("../images/avon-town-hall-park.jpeg");
   background-repeat: no-repeat;
