@@ -6,6 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
+    <meta name="description" content="Web page for Avon Indiana Chamber of Comerce">
     <title>
       Avon Indiana Chamber of Commerce
     </title>
@@ -35,14 +36,14 @@
 
   <body>
     <figure>
-      <img class="newhero" src="images/heroSrc.jpeg" alt="new hero image" >
+      <img class="newhero" src="images/heroSrc.jpeg" alt="new hero image" sizes="100vw" srcset="newimages/heroSrc400.jpeg 400w, newimages/heroSrc800 800w, newimages/heroSrc1136.jpeg 1136w" >
     </figure>
     
 
 <div id="date">This is the current day!</div>
     <header>
       
-      <a href="index.html"><img src="images/avonChamberOfCommerce.png" class="logo" alt="avon logo" ></a>
+      <a href="index.html"><img src="images/avonChamberOfCommerce.webp" class="logo" alt="avon logo" ></a>
       <div class="title"><h1>Avon Chamber of Commerce</h1>
         
       <h2>Growing with the Community</h2></div>
@@ -75,7 +76,7 @@
         </div>
       </section>
       
-      <section class="events"><div class="event-content"></div><h2>Events</h2></section>
+      <section class="events"><div class="event-content"><h2>Events</h2></div></section>
 
 
       <section class="weather">
@@ -85,23 +86,27 @@
           <p>Wind: <span id="wind">15</span>mph</p><p><span id="chill"></span></p></div></section>
       
       
-      <section class="news"><h2>News Release</h2></section>
+      <section class="news"><div class="news-content"><h2>News Release</h2></div></section>
       
-      <section class="spotlight1"><h2>Spotlight 1</h2></section>
+      <section class="spotlight1"><div class="spotlight1-content"><h2>Spotlight 1</h2></div></section>
       
-      <section class="spotlight2"><h2>Spotlight 2</h2></section>
+      <section class="spotlight2"><div class="spotlight2-content"><h2>Spotlight 2</h2></div></section>
       
-      <section class="join"><h2>Join</h2></section>
+      <section class="join"><div class="join-content"><h2>Join</h2></div></section>
       
     
      
     </main>
     <footer>
-      <h2>
+      <div class="contact-info">
+        <h2>
         &copy;
         <span id="currentYear"></span> |
-        Kevin Jones | BYU-I | WDD230
+        Avon Chamber of Commerce 
       </h2>
+      <p>8244 E US Hwy 36 #140 | Avon, IN 46123 USA</p>
+      <p>Phone: (317)272-4333 | info@avonchamber.org</p></div>
+      
       <img class="footerimg" src="images/avonChamberOfCommerce.png" alt="logo">
     </footer>
   </body>

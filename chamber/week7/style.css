@@ -12,12 +12,12 @@ h1 {
 
 body img[data-src] {
   filter: blur(0.2em);
-  opacity: 0.5;
+  opacity: 0.2;
 }
 
 body img {
   filter: blur(0em);
   opacity: 1;
-  transition: all 0.7s;
+  transition: all 1.7s;
   border-radius: 20px;
 }

@@ -31,13 +31,16 @@ console.log(today);
   } else {
     element.classList.add("hideme");
   }
+// date
+  const datefieldUS = document.querySelector("#date");
 
-  let date = new Date();
+  const now = new Date();
   
-  document.getElementById(
-    "date"
-  ).textContent = date;
-
+  const fulldateUS = new Intl.DateTimeFormat("en-US", {
+    dateStyle: "full",
+  }).format(now);
+  
+  datefieldUS.innerHTML = `${fulldateUS}`; 
   // wind chill 
   const tempNumber = parseFloat(document.getElementById("temp").textContent);
   console.log(tempNumber)
