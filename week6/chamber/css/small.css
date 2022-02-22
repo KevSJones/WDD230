@@ -1,0 +1,161 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+body {
+  max-width: 960px;
+  margin: auto;
+  font-family: "Dongle", sans-serif;
+}
+.newhero {
+  width: 100%;
+}
+header {
+  background-color: lightgray;
+  padding: 5px 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+
+
+}
+.logo {
+  padding: 1rem 2vw;
+  text-align: center;
+  width: 60%;
+  margin: 0 20% 0 20%;
+
+}
+header h1 {
+  font-size: 3rem;
+  grid-row: 1/2;
+  text-align: center;
+  margin: 0;
+}
+header h2 {
+  font-size: 1.5rem;
+  grid-row: 3/4;
+  text-align: center;
+  margin: 0;
+
+}
+.newhero {
+  width: 100%;
+}
+.thesocials {
+  display: none;
+}
+div#date {
+  grid-column: 1/4;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  
+}
+div#reminder {
+  background-color: #ffc65c;;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  text-align: center;
+  font-size: 1.2rem;
+}
+div.showme {display:block}
+div.hideme{display: none;}
+nav {
+  background-color: #206080;
+}
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: black;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+nav ul li a {
+  display: block;
+  padding: 0rem 2vw;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid
+    rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: #fff;
+}
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+nav ul {
+  display: none;
+}
+nav ul.open {
+  display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+.hero {
+  background-image: url("../images/avon-town-hall-park.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.hero-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 1rem 2vw;
+  text-align: center;
+  width: 80%;
+  margin: 2rem 10% 2rem 10%;
+}
+
+section {
+  border:1px solid black;
+  background-color: #206080;
+}
+
+
+section div {
+  background-color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  margin: 2%;
+  padding: 1rem;
+}
+
+
+footer {
+  background-color: lightgray;
+  display: flex;
+  align-items:center; 
+  
+}
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
