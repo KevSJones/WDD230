@@ -79,5 +79,18 @@ header {
     grid-row: 5/6;
     margin: 3px;
   }
+
+  /* discover page */
+  .discover-main {
+    margin: 0 20% 0 20%;
+    align-items: center;
+  }
+  .discover {
+    align-items: center;
+  }
+  .discover-image:hover {
+    box-shadow: 0 0 50px #333;
+
+  }
 } 
 /* end medium */
