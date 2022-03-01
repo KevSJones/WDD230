@@ -111,6 +111,9 @@
         <img class="discover-image" src="https://via.placeholder.com/300x400.png" data-src="images/statepark.jpeg" alt="State Park">
         <figcaption>You'll marvel at the natural geologic wonders of this beautiful park as you hike along its famous trails. Nestled along State Road 47 southwest of Crawfordsville, the park offers the chance to explore deep, sandstone ravines, walk along stands of aged forests, and enjoy the scenic views along Sugar Creek.</figcaption>
       </figure>
+      <h3 class="last-visit"></h3>
+      <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
+      <p>Current Page Load Timestamp: <span class="today"></span> in milliseconds.</p>
       
     </div>
       
@@ -130,6 +133,24 @@
     </footer>
     
     <script src="js/lazyload.js"></script>
+    <script>
+      const lastvisit = localStorage.getItem("lastvisit");
+      const FACTOR = 1000 * 60 * 60 * 24
+
+      let daysbetween = Date.now() - lastvisit;
+
+      let numberOfDays = daysbetween / FACTOR;
+
+      localStorage.setItem("lastvisit", Date.now());
+
+
+      if (lastvisit == null) {
+        lastvisit.textContent = `This is your first time visiting this page. Welcome!`;
+      } else {
+        lastvisit.textContent = numberOfDays;
+      }
+
+    </script>
   </body>
   
 </html>
