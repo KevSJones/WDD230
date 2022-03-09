@@ -196,7 +196,7 @@ footer {
   flex-direction: column;
 }
 /* -----------Join Page------------ */
-.join-now-main {
+.join-now-main, .thankyou {
   display: flex;
   flex-direction: column;
 }
