@@ -1,0 +1,88 @@
+{
+  "businesses" : [
+    {
+      "name" : "State Bank",
+      "address" : " ", 
+      "phone" : " ",
+      "web" : " ",
+      "logo" : ""
+    },
+    {
+      "name" : "Hendricks Regional Health",
+      "address" : " ", 
+      "phone" : " ",
+      "web" : " ",
+      "logo" : ""
+    },
+    {
+      "name" : "Chick-fil-A",
+      "address" : " ", 
+      "phone" : " ",
+      "web" : " ",
+      "logo" : ""
+    },
+    {
+      "name" : "IU West Hospital",
+      "address" : " ", 
+      "phone" : " ",
+      "web" : " ",
+      "logo" : ""
+    },
+    {
+      "name" : "Frye Electric",
+      "address" : " ", 
+      "phone" : " ",
+      "web" : " ",
+      "logo" : ""
+    },
+    {
+      "name" : "Champion Chevrolet",
+      "address" : "183 S Country Road 525 East Avon, IN 46123", 
+      "phone" : "317-520-3718",
+      "web" : "chevyofavon.com",
+      "logo" : "https://www.chevyofavon.com/static/v8/global/images/franchise-logos/auto/c/chevrolet/white/117x80.png?r=1646770097000"
+    },
+    {
+      "name" : "Town of Avon",
+      "address" : "6570 E US Highway 36 Avon, IN 46123", 
+      "phone" : "317-272-0948",
+      "web" : "avongov.org",
+      "logo" : "https://www.avongov.org/egov/images/1479835606_94971_o.jpg"
+    },
+    {
+      "name" : "Teachers Credit Union",
+      "address" : "P.O. Box 1395 South Bend, IN 46624", 
+      "phone" : "800-552-4745",
+      "web" : "tcunet.com",
+      "logo" : "https://www.tcunet.com/App_Themes/tcunet/Images/header-logo-tcunet.svg"
+    },
+    {
+      "name" : "Bassett Services Inc.",
+      "address" : "706 W Main Plainfield, IN 46123", 
+      "phone" : "317-623-4163",
+      "web" : "bassettservices.com",
+      "logo" : "https://bassettservices.com/wp-content/uploads/2021/09/bassett-logo.png"
+    },
+    {
+      "name" : "Hendricks Power Cooperative",
+      "address" : "86 N County Road 500 E Avon, IN 46123", 
+      "phone" : "317-745-5437",
+      "web" : "hendrickspower.com",
+      "logo" : "https://hendrickspower.com/sites/hendrickspower/files/HPC-TSE-Hero_Logo-XL.png"
+    },
+    {
+      "name" : "Prestwick Country Club",
+      "address" : "5197 Fairway Drive Avon, IN 46123", 
+      "phone" : "317-745-6448",
+      "web" : "prestwickgolf.com",
+      "logo" : "https://web.avonchamber.org/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=536"
+    },
+    {
+      "name" : "Opa Greek Restraunt",
+      "address" : "7900 US Hwy. 36 Avon, IN 46123", 
+      "phone" : "317-707-7513",
+      "web" : "opaavonin.com",
+      "logo" : "https://opaavonin.com/OptimaMedia/images/P_4501/04ea6617-dda2-4497-abdf-ff939bf8d3a5.jpg"
+    }
+  ]
+}

@@ -22,9 +22,9 @@ fetch(requestURL)
     let protrait = document.createElement('img');
 
     h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-    p.innerHTML = `Date of birth ${prophet.birthdate}`;
+    p.innerHTML = `Date of birth: ${prophet.birthdate}`;
     place.innerHTML = `Birthplace: ${prophet.birthplace}`;
-    death.innerHTML = `Date of death: ${prophet.death}`;
+    death.innerHTML = `Date passed away: ${prophet.death}`;
     protrait.setAttribute('src', prophet.imageurl);
     protrait.setAttribute('alt',`Portrait of ${prophet.name} ${prophet.lastname}`);
     protrait.setAttribute('loading', 'lazy');
