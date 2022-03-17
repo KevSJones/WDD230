@@ -254,3 +254,17 @@ form label.top input:required {
 form label.top input:required:valid {
   border: #206080 solid 1px;
 }
+/* directory page */
+.directory {
+  background-color: rgb(102, 145, 145);
+  border: solid black;
+  display: block;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 10px 5px 5px grey;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+}

@@ -11,7 +11,7 @@
       "name" : "Hendricks Regional Health",
       "address" : "1000 East Main Street Danville, Indiana 46123", 
       "phone" : "317-745-4451",
-      "web" : "https://www.hendricks.org/?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4Vwnjtj6JrpVXouYww8sSBvaIoVGhNQoqVEPGUrarktVIvnFdw17yBoC4EQQAvD_BwE",
+      "web" : "https://www.hendricks.org/",
       "logo" : "images/hendricks-regional-health.png"
     },
     {
@@ -26,7 +26,7 @@
       "address" : "1111 N Ronald Reagan Pkwy Avon, IN 46123", 
       "phone" : "317-217-3000",
       "web" : "https://iuhealth.org/find-locations/iu-health-west-hospital",
-      "logo" : "images/iuhealth.psd"
+      "logo" : "images/iuhealth.webp"
     },
     {
       "name" : "Frye Electric",
