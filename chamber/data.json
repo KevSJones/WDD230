@@ -5,84 +5,84 @@
       "address" : "8598 E US Highway 36 Avon, IN 46123", 
       "phone" : "866-348-4674",
       "web" : "statebank1910.bank",
-      "logo" : "https://www.statebank1910.bank/wp-content/themes/BankSiteResponsive_2017/img/logo.svg"
+      "logo" : "images/statebank.webp"
     },
     {
       "name" : "Hendricks Regional Health",
       "address" : "1000 East Main Street Danville, Indiana 46123", 
       "phone" : "317-745-4451",
       "web" : "https://www.hendricks.org/?gclid=CjwKCAjw8sCRBhA6EiwA6_IF4Vwnjtj6JrpVXouYww8sSBvaIoVGhNQoqVEPGUrarktVIvnFdw17yBoC4EQQAvD_BwE",
-      "logo" : "https://www.hendricks.org/Master/design007/assets/img/hendricks-regional-health.png"
+      "logo" : "images/hendricks-regional-health.png"
     },
     {
       "name" : "Chick-fil-A",
       "address" : "10791 E US Highway 36 Avon, IN 46123", 
       "phone" : "317-271-7760",
       "web" : "https://www.chick-fil-a.com/locations/in/avon",
-      "logo" : "https://d1yjjnpx0p53s8.cloudfront.net/styles/logo-original-577x577/s3/042013/chick-fil-a.png?itok=ESviNAD8"
+      "logo" : "images/chick-fil-a.jpg"
     },
     {
       "name" : "IU West Hospital",
       "address" : "1111 N Ronald Reagan Pkwy Avon, IN 46123", 
       "phone" : "317-217-3000",
       "web" : "https://iuhealth.org/find-locations/iu-health-west-hospital",
-      "logo" : "https://cdn.iuhealth.org/images/logo.svg"
+      "logo" : "images/iuhealth.psd"
     },
     {
       "name" : "Frye Electric",
       "address" : "141 Casco Dr. Avon, IN 46123", 
       "phone" : "317-659-6899",
       "web" : "https://www.fryeelectricinc.com/",
-      "logo" : "https://www.fryeelectricinc.com/images/logos/Logo2.png"
+      "logo" : "images/frye.png"
     },
     {
       "name" : "Champion Chevrolet",
       "address" : "183 S Country Road 525 East Avon, IN 46123", 
       "phone" : "317-520-3718",
       "web" : "chevyofavon.com",
-      "logo" : "https://www.chevyofavon.com/static/v8/global/images/franchise-logos/auto/c/chevrolet/white/117x80.png?r=1646770097000"
+      "logo" : "images/championchevy.webp"
     },
     {
       "name" : "Town of Avon",
       "address" : "6570 E US Highway 36 Avon, IN 46123", 
       "phone" : "317-272-0948",
       "web" : "avongov.org",
-      "logo" : "https://www.avongov.org/egov/images/1479835606_94971_o.jpg"
+      "logo" : "images/townofavon.png"
     },
     {
       "name" : "Teachers Credit Union",
       "address" : "P.O. Box 1395 South Bend, IN 46624", 
       "phone" : "800-552-4745",
       "web" : "tcunet.com",
-      "logo" : "https://www.tcunet.com/App_Themes/tcunet/Images/header-logo-tcunet.svg"
+      "logo" : "images/tcu.webp"
     },
     {
       "name" : "Bassett Services Inc.",
       "address" : "706 W Main Plainfield, IN 46123", 
       "phone" : "317-623-4163",
       "web" : "bassettservices.com",
-      "logo" : "https://bassettservices.com/wp-content/uploads/2021/09/bassett-logo.png"
+      "logo" : "images/bassett-logo.png"
     },
     {
       "name" : "Hendricks Power Cooperative",
       "address" : "86 N County Road 500 E Avon, IN 46123", 
       "phone" : "317-745-5437",
       "web" : "hendrickspower.com",
-      "logo" : "https://hendrickspower.com/sites/hendrickspower/files/HPC-TSE-Hero_Logo-XL.png"
+      "logo" : "images/HPC.png"
     },
     {
       "name" : "Prestwick Country Club",
       "address" : "5197 Fairway Drive Avon, IN 46123", 
       "phone" : "317-745-6448",
       "web" : "prestwickgolf.com",
-      "logo" : "https://web.avonchamber.org/external/wcpages/wcwebcontent/webcontentpage.aspx?contentid=536"
+      "logo" : "images/prestwick.png"
     },
     {
       "name" : "Opa Greek Restraunt",
       "address" : "7900 US Hwy. 36 Avon, IN 46123", 
       "phone" : "317-707-7513",
       "web" : "opaavonin.com",
-      "logo" : "https://opaavonin.com/OptimaMedia/images/P_4501/04ea6617-dda2-4497-abdf-ff939bf8d3a5.jpg"
+      "logo" : "images/opa.jpg"
     }
   ]
 }

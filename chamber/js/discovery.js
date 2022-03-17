@@ -13,7 +13,7 @@ fetch(requestURL)
   });
   
 
-  function displayBusiness(buisines) {
+  function displayBusiness(business) {
     let card = document.createElement('section');
     let h2 = document.createElement("h2");
     let p = document.createElement("p");
@@ -22,10 +22,10 @@ fetch(requestURL)
     let protrait = document.createElement('img');
 
     h2.innerHTML = `${business.name}`;
-    p.innerHTML = `Date of birth: ${business.phone}`;
-    place.innerHTML = `Birthplace: ${business.address}`;
-    death.innerHTML = `Date passed away: ${business.web}`;
-    protrait.setAttribute('src', business.imageurl);
+    p.innerHTML = `Phone Number: ${business.phone}`;
+    place.innerHTML = `Address: ${business.address}`;
+    death.innerHTML = `Website: ${business.web}`;
+    protrait.setAttribute('src', business.logo);
     protrait.setAttribute('alt',`Portrait of ${business.name}`);
     protrait.setAttribute('loading', 'lazy');
 
