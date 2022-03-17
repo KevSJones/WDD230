@@ -256,7 +256,6 @@ form label.top input:required:valid {
 }
 /* directory page */
 .directory {
-  background-color: rgb(102, 145, 145);
   border: solid black;
   display: block;
   margin: 10px;
@@ -266,5 +265,18 @@ form label.top input:required:valid {
 }
 .cards {
   display: grid;
+  grid-gap: 5px;
+  margin: 6px;
   grid-template-columns: 1fr;
+  border-radius: 1rem;
+  text-decoration: none;
+}
+.cards a {
+  text-decoration: none;
+}
+.cards p {
+  padding: 2%;
+}
+.cards :hover {
+  
 }

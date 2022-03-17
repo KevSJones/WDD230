@@ -92,5 +92,10 @@ header {
     box-shadow: 0 0 50px #333;
 
   }
+  .cards {
+    display: grid;
+    
+    grid-template-columns:1fr 1fr;
+  }
 } 
 /* end medium */

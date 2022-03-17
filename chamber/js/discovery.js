@@ -15,25 +15,30 @@ fetch(requestURL)
 
   function displayBusiness(business) {
     let card = document.createElement('section');
-    let h2 = document.createElement("h2");
-    let p = document.createElement("p");
-    let place = document.createElement("p");
-    let death = document.createElement("p");
-    let protrait = document.createElement('img');
+    let name = document.createElement("h2");
+    let phone = document.createElement("p");
+    let address = document.createElement("p");
+    let web = document.createElement("a");
+    let space = document.createElement("p")
+    let logo = document.createElement('img');
 
-    h2.innerHTML = `${business.name}`;
-    p.innerHTML = `Phone Number: ${business.phone}`;
-    place.innerHTML = `Address: ${business.address}`;
-    death.innerHTML = `Website: ${business.web}`;
-    protrait.setAttribute('src', business.logo);
-    protrait.setAttribute('alt',`Portrait of ${business.name}`);
-    protrait.setAttribute('loading', 'lazy');
+    name.innerHTML = `${business.name}`;
+    phone.innerHTML = `Phone Number: ${business.phone}`;
+    address.innerHTML = `Address: ${business.address}`;
+    web.innerHTML = `Website: ${business.web}`;
+    space.innerHTML = ``;
+    web.setAttribute('href', business.web);
+    logo.setAttribute('src', business.logo);
+    logo.setAttribute('alt',`Portrait of ${business.name}`);
+    logo.setAttribute('href', `${business.web}`)
+    logo.setAttribute('loading', 'lazy');
 
-    card.appendChild(h2);
-    card.appendChild(p);
-    card.appendChild(place);
-    card.appendChild(death);
-    card.appendChild(protrait);
+    card.appendChild(name);
+    card.appendChild(phone);
+    card.appendChild(address);
+    card.appendChild(web);
+    card.appendChild(space);
+    card.appendChild(logo);
 
     cards.appendChild(card);
 
