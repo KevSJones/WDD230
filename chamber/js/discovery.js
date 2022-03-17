@@ -1,4 +1,4 @@
-const discoveryjson = 'chamber/data.json';
+const requestURL = 'https://kevsjones.github.io/wdd230/chamber/data.json';
 
 const cards = document.querySelector('.cards');
 
@@ -8,12 +8,12 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
   console.table(jsonObject);
-  const prophets = jsonObject['prophets'];
-  prophets.forEach(displayProphets);
+  const businesses = jsonObject['businesses'];
+  businesses.forEach(displayBusiness);
   });
   
 
-  function displayProphets(prophet) {
+  function displayBusiness(buisines) {
     let card = document.createElement('section');
     let h2 = document.createElement("h2");
     let p = document.createElement("p");
@@ -21,12 +21,12 @@ fetch(requestURL)
     let death = document.createElement("p");
     let protrait = document.createElement('img');
 
-    h2.innerHTML = `${prophet.name} ${prophet.lastname}`;
-    p.innerHTML = `Date of birth: ${prophet.birthdate}`;
-    place.innerHTML = `Birthplace: ${prophet.birthplace}`;
-    death.innerHTML = `Date passed away: ${prophet.death}`;
-    protrait.setAttribute('src', prophet.imageurl);
-    protrait.setAttribute('alt',`Portrait of ${prophet.name} ${prophet.lastname}`);
+    h2.innerHTML = `${business.name}`;
+    p.innerHTML = `Date of birth: ${business.phone}`;
+    place.innerHTML = `Birthplace: ${business.address}`;
+    death.innerHTML = `Date passed away: ${business.web}`;
+    protrait.setAttribute('src', business.imageurl);
+    protrait.setAttribute('alt',`Portrait of ${business.name}`);
     protrait.setAttribute('loading', 'lazy');
 
     card.appendChild(h2);
