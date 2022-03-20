@@ -77,7 +77,7 @@ fetch(requestURL)
     list.appendChild(web);
     list.appendChild(space);
     
-
+    
     lists.appendChild(list);
 
   }
@@ -85,7 +85,7 @@ fetch(requestURL)
 const showgrid = document.querySelector('.cards');
 
 document.getElementById("listBtn").addEventListener("click", function(){
-  element.classList.add("hide");
+  element.classList.add("show");
 });
 document.getElementById("gridBtn").addEventListener("click", function(){
   element.classList.add("show");

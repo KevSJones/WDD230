@@ -141,6 +141,16 @@ nav ul.open {
   color: black;
   font-size: x-large;
 }
+.news-content ul li {
+  list-style: none;
+  line-height: 25px;
+  font-size: large;
+}
+.news-content a{
+  text-decoration: none;
+  color: #206080;
+  line-height: 15px;
+}
 
 .join {
   background-image: url("../images/join.jpg");
