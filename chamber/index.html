@@ -68,7 +68,7 @@
         <div class="hero-content">
           <h2>Welcome to the Town of Avon Chamber of Commerce.</h2>
           <p>We seek to provide businesses a way to connect with the community. With over 600 members, we are able to promote continuous improvment of the quality of life in the community.</p>
-          <button class="btn">Join Now!</button>
+          <button class="btn"><a href="join.html">Join Now!</a></button>
         </div>
       </section>
       
@@ -83,20 +83,25 @@
       <section class="weather">
         <div class="weather-content">
           <h2>Weather</h2>
-          <p>Temperature: <span id="temp">35</span>&deg;F</p>
-          <p>Wind: <span id="wind">15</span>mph</p><p><span id="chill"></span></p></div></section>
+          <p></p>
+          <p>Temperature: <span id="current-temp"></span>&deg;F</p>
+          <p>Wind: <span id="wind"></span>mph</p><p><span id="chill"></span></p></div></section>
+          <p>The current conditions icon path is: <span id="icon-src"></span>"</p><figure><img src="" alt="" id="weathericon" />  <figcaption></figcaption></figure>
       
       
       <section class="news"><div class="news-content"><h2>News Release</h2>
       </div></section>
       
-      <section class="spotlight1"><div class="spotlight1-content"><h2>Spotlight 1</h2>
-          <h3>Britney Overstreet</h3>
+      <section class="spotlight1"><div class="spotlight1-content">
+          <h2>Britney Overstreet</h2>
         <p>Meet Britney Overstreet. Owener and founder of Sweet Sweat Hot Yoga. Britney opened her yoga studio in 2019. Click here to learn more about her journey and how she continued to grow her business through 2020 and 2021.</p></div></section>
       
-      <section class="spotlight2"><div class="spotlight2-content"><h2>Spotlight 2</h2></div></section>
+      <section class="spotlight2"><div class="spotlight2-content">
+      <h2>Travis Limblom</h2>
+    <p>Travis is he owener of a local design firm that specializes in turning urban appartments into luxury condos for low income families. He has loved working in the Avon area and plans to expand his business by 200% in the next 5 years.</p></div></section>
       
-      <section class="join"><div class="join-content"><h2>Join</h2></div></section>
+      <section class="join"><div class="join-content"><button><a href="join.html">Click to Join</a></button>
+      <p>See how your business can benifit from joinging the Chamber of Commerce.</p></div></section>
       
     
      
@@ -115,4 +120,5 @@
     </footer>
   </body>
   <script src="js/scripts.js"></script>
+  <script src="js/weatherapi.js"></script>
 </html>

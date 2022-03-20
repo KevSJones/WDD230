@@ -126,13 +126,22 @@ nav ul.open {
   background-position: center center;
 }
 .hero-content {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 1rem 2vw;
   border-radius: 20px;
   text-align: center;
   width: 80%;
   margin: 2rem 10% 2rem 10%;
 }
+.btn {
+  border-radius: 3px;
+}
+.btn a{
+  text-decoration: none;
+  color: black;
+  font-size: x-large;
+}
+
 .join {
   background-image: url("../images/join.jpg");
   background-repeat: no-repeat;
@@ -166,14 +175,26 @@ nav ul.open {
 section {
   border:1px solid black;
   background-color: #206080;
+  text-decoration: none;
+}
+.event-content ul {
+  text-align: left;
+}
+.join a {
+  text-decoration: none;
+  color: black;
+  size: x-large;
+}
+.join button {
+  border-radius: 4px;
+  font-size: x-large;
 }
 
-
 section div {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   border-radius: 20px;
   text-align: center;
-  margin: 2%;
+  margin: 4%;
   padding: 1rem;
 }
 
@@ -263,20 +284,63 @@ form label.top input:required:valid {
   text-align: center;
   box-shadow: 10px 5px 5px grey;
 }
+.wrapper {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 200%;
+  margin: 40px;
+  border-radius: 5px;
+}
+.links {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+}
+.links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.links ul li {
+  margin: 0 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+.links ul li:hover,
+.links ul li.active {
+  color: #ffc65c;
+}
+.hide {
+  display: none;
+}
+
 .cards {
   display: grid;
   grid-gap: 5px;
   margin: 6px;
   grid-template-columns: 1fr;
   border-radius: 1rem;
-  text-decoration: none;
+
 }
 .cards a {
   text-decoration: none;
+  color: black;
+}
+.cards :hover {
+  transform: scale(1.05);
 }
 .cards p {
   padding: 2%;
 }
-.cards :hover {
-  
+.list {
+  display: block;
+  margin: 5px;
+  line-height: .5px;
+}
+.list a {
+  text-decoration: none;
+  color: black;
 }
