@@ -42,9 +42,9 @@ console.log(today);
   
   datefieldUS.innerHTML = `${fulldateUS}`; 
   // wind chill 
-  const tempNumber = parseFloat(document.getElementById("temp").textContent);
+  const tempNumber = parseFloat(document.getElementById("currentTemp").textContent);
   console.log(tempNumber)
-  const windNumber = parseFloat(document.getElementById("wind").textContent);
+  const windNumber = parseFloat(document.getElementById("windSpeed").textContent);
   console.log(windNumber)
 
   let windchill = 35.74 + (0.6215 * tempNumber) - (35.75 * Math.pow(windNumber,0.16)) + (0.4275 * tempNumber * Math.pow(windNumber, 0.16));
@@ -54,6 +54,6 @@ console.log(today);
   if(tempNumber <=50 && windNumber >3) {
     document.getElementById("chill").textContent = "Wind Chill is "+windchill+"\xB0F";
   } else {
-      document.getElementById("chill").textContent = "N/A"
+      document.getElementById("chill").textContent = "Wind Chill is: N/A"
   }
   // lazy load
