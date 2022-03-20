@@ -97,5 +97,18 @@ header {
     
     grid-template-columns:1fr 1fr;
   }
+  /* Contact Page */
+.contact-page {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+}
+.getintouchtitle {
+  grid-column: 1/3;
+}
+.contact-page h1{
+  grid-column: 1/3;
+  text-align: center;
+}
 } 
 /* end medium */

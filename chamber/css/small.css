@@ -344,3 +344,40 @@ form label.top input:required:valid {
   text-decoration: none;
   color: black;
 }
+/* Contact Page */
+.contact-page {
+  display: grid;
+  grid-template-columns: 1fr;
+ 
+}
+.contact-page h1 {
+  text-align: center;
+
+
+}
+.contact-page fieldset {
+  margin: 2rem 3px;
+  border: 1px solid #206080;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+.getintouch {
+ 
+  text-align: center;
+}
+.getintouchtitle legend {
+  color: #206080;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+.boardofdirectors legend {
+  color: #206080;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+.boardofdirectors a {
+  text-decoration: none;
+  color: #206080;
+}

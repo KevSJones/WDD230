@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <meta name="description" content="Discovery web page for Avon Indiana Chamber of Comerce">
+    <title>
+      Contact The Chamber of Commerce
+    </title>
+    <!-- CSS sheets -->
+    <link rel="shortcut icon" href="favicon.ico">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/small.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/medium.css"
+    />
+    <link
+      rel="stylesheet"
+      href="css/large.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300;400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+    
+<div id="date">This is the current day!</div>
+    <header>
+      
+      <a href="index.html"><img src="images/avonChamberOfCommerce.webp" class="logo" alt="avon logo" ></a>
+      <div class="title"><h1>Avon Chamber of Commerce</h1>
+        
+      <h2>Growing with the Community</h2></div>
+      <div class="thesocials"><a href="facebook.com"><img src="images/fb.png" alt="FaceBook"></a>
+      <a href="instagram.com"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="twitter.com"><img src="images/twitter.png" alt="Twitter"></a></div>
+      
+    </header>
+      
+      <div id="reminder">Please come join us for the chamber meet and greet Wednesday at 7:00p.m.</div>
+
+      <nav>
+        <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+        <ul id="primaryNav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>     
+        </ul>
+      </nav>
+      
+    
+    <main class="contact-page">
+      <h1>Contact Us</h1>
+      <fieldset class="getintouchtitle">
+        <legend>Get in Touch</legend>
+        <div class="getintouch">
+          <p>Address: 8244 E US Hwy 36 Avon, Indiana 46123</p>
+          <p>Phone Number: (317)272-4333</p>
+          <h3>Office Hours</h3>
+          <p>Monday - Friday 9:00AM to 5:00PM</p>
+        </div>         
+      </fieldset>
+      <form method="get" action="thankyou.html">
+          <fieldset class="generalcontact">
+              <legend>General Inquiries</legend>
+              <label class="top">Name*<input type="text" name="name" required></label> 
+              <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234"></label> 
+              <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label> 
+              <label class="top">Business Name/Title<input type="title" name="title"></label> 
+              <label class="top">Questions/Comments<textarea type="textarea" name="description" ></textarea>                              
+          </fieldset>
+          <input type="submit" value="Send Message" class="submitBtn">                     
+      </form>
+      <fieldset class="boardofdirectors">
+        <legend>Board of Directors</legend>
+        <div class="bod">
+          <p>
+            Kerri James<br />
+            President/CEO<br />
+            <a href="mailto:kjames@avonchamber.org">kjames@avonchamber.org</a>
+          </p>
+    
+          <p>
+            Jen Johnson<br />
+            Vice President/Operations<br />
+            <a href="mailto:jjohnson@avonchamber.org">jjohnson@avonchamber.org</a>
+          </p>
+          <p>
+            Klinton Paul<br />
+            Director of Membership<br />
+            <a href="mailto:kpaul@avonchamber.org"
+              >kpaul@avonchamber.org</a
+            >
+          </p>
+          
+          <p>
+            Nicole Larson<br />
+            Director of Marketing<br />
+            <a href="mailto:nlarson@avonchamber.org">nlarson@avonchamber.org</a>
+          </p>
+          <p>
+            Bruce Enz<br />
+            Clean Up/Public Relations<br />
+            <a href="mailto:jjohnson@avonchamber.org">jjohnson@avonchamber.org</a>
+          </p>
+          <p>
+            Kade Nielson<br />
+            Manager of Flight Safety<br />
+            <a href="mailto:knielsonl@avonchamber.org"
+              >knielson@avonchamber.org</a
+            >
+          </p>
+          
+          <p>
+            Jared Halbert<br />
+            Director of Vending Machiens<br />
+            <a href="mailto:jhalbert@avonchamber.org">jhalbert@avonchamber.org</a>
+          </p>
+        </div>         
+      </fieldset>
+      
+
+      
+     
+    </main>
+    <footer>
+      <div class="contact-info">
+        <h2>
+        &copy;
+        <span id="currentYear"></span> |
+        Avon Chamber of Commerce 
+      </h2>
+      <p>8244 E US Hwy 36 #140 | Avon, IN 46123 USA</p>
+      <p>Phone: (317)272-4333 | info@avonchamber.org</p></div>
+      
+      <img class="footerimg" src="images/avonChamberOfCommerce.png" alt="logo">
+    </footer>
+    <script src="js/scripts.js"></script>
+    <script src="js/lazyload.js"></script>
+    <script src="js/daysbetween.js"></script>
+  </body>
+  
+</html>
