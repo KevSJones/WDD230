@@ -1,0 +1,477 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-family: "Fraunces", serif;
+}
+
+.newhero {
+  width: 100%;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 5px 0;
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr;
+  align-items: center;
+  justify-content: center;
+  border: solid 2px #404040;
+  border-radius: 20px;
+
+
+
+}
+
+.logo {
+  padding: 1rem 2vw;
+  text-align: center;
+  width: 60%;
+  margin: 0 20% 0 20%;
+  background-color: #f2f2f2;
+}
+
+
+
+
+.thesocials {
+  display: none;
+}
+
+div#date {
+  text-align: center;
+  background-color: #f2f2f2;
+  font-size: xx-large;
+  margin: none;
+  border-radius: 30px;
+
+}
+
+div#reminder {
+  background-color: rgb(16, 16, 48);
+  color: #f2f2f2;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+div.showme {
+  display: block
+}
+
+div.hideme {
+  display: none;
+}
+
+nav {
+  background-color: #adadad;
+  border: solid 2px #fff;
+  border-radius: 20px;
+  margin: 5px;
+}
+
+nav button {
+  margin: 0.2rem 2vw;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: #0D0D0D;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+nav ul li a {
+  display: block;
+  padding: 0rem 2vw;
+  text-decoration: none;
+  color: black;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+  background-color: rgb(16, 16, 46);
+  color: #f2f2f2;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+.booknow {
+  background-image: url("../images/temples/salt-lake.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+
+
+.btn {
+  border-radius: 3px;
+}
+
+.btn a {
+  text-decoration: none;
+  color: #0D0D0D;
+  font-size: x-large;
+}
+
+
+
+.contact {
+  background-image: url("../images/wedding/bride-groom-standing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.locations {
+  background-image: url("../images/maps.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.locations-content ul li {
+  list-style: none;
+  line-height: 25px;
+  font-size: large;
+}
+
+.locations-content a {
+  text-decoration: none;
+  color: #0d0d0d;
+  line-height: 15px;
+}
+
+.amenities {
+  background-image: url("../images/reception.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.amenities-content ul {
+  list-style: none;
+}
+
+.missionary {
+  background-image: url("../images/senior-couple.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.missionary-content a {
+  text-decoration: none;
+  color: #0D0D0D;
+}
+
+.planning {
+  background-image: url("../images/wedding/caketable.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.planning-content a {
+  text-decoration: none;
+  color: #0D0D0D;
+
+}
+
+section {
+  border: 1px solid #0D0D0D;
+  background-color: rgb(16, 16, 46);
+  text-decoration: none;
+}
+
+.locations-content ul {
+  text-align: center;
+  text-decoration: none;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  size: x-large;
+}
+
+.contact button {
+  border-radius: 6px;
+  font-size: x-large;
+}
+
+section div {
+  background-color: rgba(202, 200, 200, 0.4);
+  border-radius: 20px;
+  text-align: center;
+  margin: 2%;
+  padding: 1rem;
+}
+
+
+footer {
+  background-color: rgb(16, 16, 46);
+  color: #f2f2f2;
+  display: flex;
+  align-items: center;
+
+}
+
+.footerimg {
+  background-color: #f2f2f2;
+  width: 30%;
+  border-radius: 15px;
+  margin: 1em;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  margin: 2%;
+}
+
+/* discover page */
+.discover {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----------Join Page------------ */
+.join-now-main,
+.thankyou {
+  display: flex;
+  flex-direction: column;
+}
+
+/* -----------Form------------ */
+
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid #206080;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+form legend {
+  color: #206080;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #555;
+  font-size: .8rem;
+}
+
+textarea {
+  min-height: 200px;
+}
+
+form label.top input,
+form label.top select,
+form textarea {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: solid 1px;
+  border-radius: 4px;
+  padding: .75rem;
+  width: 100%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form label.sbs {
+  display: block;
+  padding: .75rem 0;
+  color: #555;
+}
+
+form input.submitBtn {
+  border: none;
+  background-color: #ffc65c;
+
+  border-radius: 1rem;
+  padding: .75rem 1.5rem;
+  margin: 0 0 2rem 2%;
+  max-width: 20rem;
+}
+
+form label.top input:required {
+  border: #ffc65c solid 3px;
+}
+
+form label.top input:required:valid {
+  border: #206080 solid 1px;
+}
+
+/* directory page */
+.directory {
+  border: solid black;
+  display: block;
+  margin: 10px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 10px 5px 5px grey;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 50px auto;
+  font-size: 200%;
+  margin: 40px;
+  border-radius: 5px;
+}
+
+.links {
+  margin-bottom: 20px;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.links ul li {
+  margin: 0 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+.links ul li:hover,
+.links ul li.active {
+  color: #ffc65c;
+}
+
+.hide {
+  display: none;
+}
+
+.cards {
+  display: grid;
+  grid-gap: 5px;
+  margin: 6px;
+  grid-template-columns: 1fr;
+  border-radius: 1rem;
+
+}
+
+.cards a {
+  text-decoration: none;
+  color: black;
+}
+
+.cards :hover {
+  transform: scale(1.05);
+}
+
+.cards p {
+  padding: 2%;
+}
+
+.list {
+  display: block;
+  margin: 5px;
+  line-height: .5px;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Contact Page */
+.contact-page {
+  display: grid;
+  grid-template-columns: 1fr;
+
+}
+
+.contact-page h1 {
+  text-align: center;
+
+
+}
+
+.contact-page fieldset {
+  margin: 2rem 3px;
+  border: 1px solid #206080;
+  border-radius: 10px;
+  padding: .5rem 2%;
+}
+
+.getintouch {
+
+  text-align: center;
+}
+
+.getintouchtitle legend {
+  color: #206080;
+  margin: 0 1rem;
+  padding: 0 .5rem;
+}
+
+.boardofdirectors legend {
+  color: #206080;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+.boardofdirectors a {
+  text-decoration: none;
+  color: #206080;
+}

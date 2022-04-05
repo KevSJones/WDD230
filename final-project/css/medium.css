@@ -1,0 +1,136 @@
+@media only screen and (min-width: 40rem) {
+
+  /*--------------Header---------------*/
+  header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .logo {
+    grid-column: 1/2;
+  }
+
+  nav {
+    grid-column: 2/3;
+  }
+
+  .thesocials {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    display: flex;
+    flex-flow: column;
+    width: 40%;
+    margin: 0 30% 0 30%;
+
+  }
+
+  div#reminder {
+    font-size: 2.0rem;
+  }
+
+  /*--------------Nav----------------------*/
+  nav ul li a {
+    display: flex;
+    flex-direction: row;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr;
+
+  }
+
+  .booknow {
+    grid-column: 1/3;
+    margin: 3px;
+    line-height: 1.5;
+    font-size: 2rem;
+  }
+
+
+  .amenities {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin: 3px;
+  }
+
+  .locations {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 3px;
+  }
+
+  .planning {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin: 3px;
+  }
+
+  .contact {
+    grid-row: 4/5;
+    grid-column: 1/3;
+    margin: 3px;
+  }
+
+  .missionary {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    margin: 3px;
+  }
+
+
+  /* discover page */
+  .discover-main {
+    margin: 0 20% 0 20%;
+    align-items: center;
+  }
+
+  .discover {
+    align-items: center;
+  }
+
+  .discover-image:hover {
+    box-shadow: 0 0 50px #333;
+
+  }
+
+  .cards {
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* Contact Page */
+  .contact-page {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .getintouchtitle {
+    grid-column: 1/3;
+  }
+
+  .contact-page h1 {
+    grid-column: 1/3;
+    text-align: center;
+  }
+}
+
+footer {
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+}
+
+.contact-info {
+  grid-column: 1/3;
+}
+
+.footerimg {
+  grid-column: 3/4;
+  width: 80%;
+
+}
+
+/* end medium */
