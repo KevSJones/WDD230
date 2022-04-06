@@ -1,4 +1,4 @@
-const requestURL = 'https://kevsjones.github.io/wdd230/chamber/data.json';
+const requestURL = 'https://kevsjones.github.io/wdd230/final-project/temples.json';
 
 const cards = document.querySelector('.cards');
 
