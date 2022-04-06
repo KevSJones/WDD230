@@ -45,7 +45,6 @@ header {
 
 
 
-
 .thesocials {
   display: none;
 }
@@ -223,7 +222,8 @@ nav ul.open {
 }
 
 section {
-  border: 1px solid #0D0D0D;
+  border: 3px double #0D0D0D;
+  border-style: double;
   background-color: rgb(16, 16, 46);
   text-decoration: none;
 }
@@ -245,7 +245,7 @@ section {
 }
 
 section div {
-  background-color: rgba(202, 200, 200, 0.4);
+  background-color: rgba(202, 200, 200, 0.8);
   border-radius: 20px;
   text-align: center;
   margin: 2%;

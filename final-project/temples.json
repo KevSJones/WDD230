@@ -1,0 +1,83 @@
+{
+  "temples": [{
+      "name": "Adelaide Australia Temple",
+      "locale": "Located just a few miles northeast of Adelaide's city center in the suburb of Marden, the Adelaide Australia Temple stands next to a college campus on Lower Portrush Road, a major route through suburban Adelaide. The granite edifice, capped with a gold-leafed statue of the angel Moroni, is surrounded by trees and gardens with gathering plazas on each of the four sides of the building."
+      "address": "53-59 Lower Portrush Road | Marden, South Australia 5070 | Australia",
+      "phone": "(+61) 8-8363-8000",
+      "services": "NO clothing rental, No careteria",
+      "image": "images/temples/adelaide-temple.jpeg",
+      "dedication": "15 June 2000 by Gordon B. Hinckley",
+      "web": "adelaide.html"
+    },
+    {
+      "name": "Laie Hawaii Temple",
+      "locale": "Surrounded by lush Hawaiian flora on a gently rising hill that features cascading pools and a large fountain, the Laie Hawaii Temple graces the north shore of Oahu just a half mile from the Pacific Ocean. Travelers along Kamehameha Highway can't miss the striking Hale Laa Boulevard that leads the short distance from the highway to the temple. The exquisite boulevard features a tropical garden on one end and palm trees and decorative lights on the other. Sharing the temple grounds is a highly visited public visitors' center. Down the street is Church-owned Brigham Young University–Hawaii and Hawaii's number-one paid attraction, the Polynesian Cultural Center.",
+      "address": "55-600 Naniloa Loop Laie, Hawaii  96762-1299 United States",
+      "phone": "(+1)808-293-2427",
+      "services": " Clothing rental available, No careteria",
+      "image": "images/temples/laie-hawaii-temple.jpeg",
+      "dedication": "27-30 November 1919 by Heber J. Grant",
+      "web": "hawaii.html"
+    },
+    {
+      "name": "Nauvoo Illinois Temple",
+      "locale": "The Nauvoo Illinois Temple stands on a high bluff overlooking a bend in the Mississippi River. The majestic building is a faithful reproduction of the original Nauvoo Temple built by settlers of the Church in the 1840s and destroyed by arson fire in 1848 and tornado-force winds in 1850. Featured on the grounds west of the temple is a handsome statue depicting Church founder Joseph Smith and brother Hyrum Smith on horseback; both were martyred in Carthage Jail during construction of the original temple. Nauvoo is rich in Church history and the destination of thousands of tourists each year. The temple operates an accelerated summer schedule to accommodate demand. Summer is also the season of the popular Nauvoo Pageant: A Tribute to Joseph Smith.",
+      "address": "50 North Wells Street | Nauvoo, Illinois 62354 United States",
+      "phone": "(+1)217-453-6252",
+      "services": " Clothing rental available",
+      "image": "images/temples/nauvoo-illinois.jpeg",
+      "dedication": "27-30 June 2002 by Gordon B. Hinckley",
+      "web": "nauvoo.html"
+    },
+    {
+      "name": "Rome Italy Temple",
+      "locale": "The Rome Italy Temple is being built on an elevated 15-acre site in northeast Rome near the Grande Raccordo Anulare, the circular road (beltway) that surrounds the city. The picturesque country site, once adorned by a charming villetta, sits on the outskirts of the city at a freeway interchange. The parcel is punctuated with Roman pines and an exquisite stand of olive trees.Although just a small section of the site was originally permitted for construction of the temple, recent zoning modifications allowed for the entire parcel of land to be used.Building sites in Rome must be examined for Roman ruins before construction is permitted. The inspection is carried out by digging trenches every 10 to 15 feet across the property. The day the temple property was to be inspected, Church members in Rome held a special fast. No ruins were found over the entire property, yet an old Roman village was discovered just 100 yards beyond the property boundary line. The Church purchased the property in the late 1990s.",
+      "address": "Via de Settebagni, 376 Rome Italy",
+      "phone": "(+39)06-9480-5050",
+      "services": " Clothing rental available",
+      "image": "images/temples/rome-italy.jpeg",
+      "dedication": "10-12 March 2019 by Russell M. Nelson",
+      "web": "rome.html"
+    },
+    {
+      "name": "Salt Lake Temple",
+      "locale": "Positioned on Salt Lake City's center block, known as Temple Square, the spires of the Salt Lake Temple rise amid downtown high-rises and super malls. Sharing the block are the North Visitors' Center and South Visitors' Center; the Tabernacle, home of The Tabernacle Choir at Temple Square; and the Gothic-style Assembly Hall. East of the temple is the masterfully landscaped Main Street Plaza, complete with reflecting pool. Beyond the plaza is the Church's world headquarters, known as the Church Office Building, and the Joseph Smith Memorial Building—a multipurpose Church building, which has become a popular wedding event center. The Church's Conference Center, an architectural masterpiece, lies directly north of the temple. Every holiday season, Temple Square is transformed into a highly popular display of hundreds of thousands of Christmas lights.",
+      "address": "50 West North Temple Street | Salt Lake City, Utah 84150 United States",
+      "phone": "(+1)801-240-2640",
+      "services": " Clothing rental available",
+      "image": "images/temples/salt-lake.jpeg",
+      "dedication": "6-24 April 1893 by Wilford Woodruff",
+      "web": "slc.html"
+    },
+    {
+      "name": "São Paulo Brazil Temple",
+      "locale": "Standing in one of the largest cities in the world, the São Paulo Brazil Temple occupies a beautifully landscaped tract of land on the western side of the city near a major shopping mall and Metro station, providing patrons a public transportation option to the temple. Situated on the triangular lot next to the temple are a visitors' center, accommodation center, stake center, and offices for the Brazil Area. The grounds feature a decorative water fountain and colorful flowerbeds.",
+      "address": "Avenida Professor Francisco Morato, 2390 Caxingui 05512-900–São Paulo–São Paulo Brazil",
+      "phone": "(+55)11-3723-7600",
+      "services": " Clothing rental available",
+      "image": "images/temples/São-Paulo-Brazil.jpeg",
+      "dedication": "2 November 1978 by Spencer W. Kimball",
+      "web": "sao-paulo.html"
+    },
+    {
+      "name": "Tokyo Japan Temple",
+      "locale": "The Tokyo Japan Temple is located in one of the loveliest residential areas of Tokyo across from the lush vegetation of historical Arisugawa Memorial Park. The site was chosen for its location near many schools and embassies. Transportation to the temple is excellent, as only a five-minute walk is required from the Hiroo subway station. Next door to the temple is an annex building that functions as a meetinghouse and a patron housing facility.",
+      "address": "5-8-10 Minami Azabu Minato-Ku Tokyo  106-0047 Japan",
+      "phone": "N/A",
+      "services": " NO clothing rental available",
+      "image": "images/temples/tokyo-japan.jpeg",
+      "dedication": "27-29 October 1980 by Spencer W. Kimball",
+      "web": "tokyo.html"
+    },
+    {
+      "name": "Washington D.C. Temple",
+      "locale": "Standing on sprawling grounds about 10 miles north of the United States Capitol, the gold-spired Washington D.C. Temple is a well-known landmark along the Capital Beltway in Kensington, Maryland. The beauty of this soaring edifice is enhanced by a reflection pond near the visitors' center and a spouting water feature at the temple entrance. Sharing the 52-acre wooded site are the Washington D.C. Stake Center and the beautiful Washington D.C. Temple Visitors' Center, which hosts numerous interactive exhibits, a breathtaking reproduction of the Christus statue, and regular lectures and concerts throughout the year. Admission is free. At Christmastime, the grounds are set aglow during the Festival of Lights, which offers nightly concerts, a live nativity scene, and international nativity sets.",
+      "address": "59900 Stoneybroook Drive Kensington, Maryland 20895 United States",
+      "phone": "(+1)301-588-0650",
+      "services": " NO clothing rental available",
+      "image": "images/temples/washington-dc.jpeg",
+      "dedication": "19-22 November 1874 by Spencer W. Kimball",
+      "web": "washington-dc.html"
+    }
+  ]
+}

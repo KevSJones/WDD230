@@ -7,11 +7,24 @@
   }
 
   .logo {
-    grid-column: 1/2;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 100%;
+    margin: 0;
   }
 
+
+
   nav {
-    grid-column: 2/3;
+    grid-column: 1/4;
+    grid-row: 1/2;
+  }
+
+  div#date {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    width: 70%;
+    margin-left: 1em;
   }
 
   .thesocials {
@@ -19,9 +32,11 @@
     grid-column: 3/4;
     display: flex;
     flex-flow: column;
-    width: 40%;
-    margin: 0 30% 0 30%;
+    padding-left: 100px;
+  }
 
+  .thesocials img {
+    margin: .8em;
   }
 
   div#reminder {
@@ -29,9 +44,22 @@
   }
 
   /*--------------Nav----------------------*/
-  nav ul li a {
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
     display: flex;
-    flex-direction: row;
+    font-size: 1.3rem;
+    margin-left: 2vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  nav ul li a {
+    border: none;
+
   }
 
   main {

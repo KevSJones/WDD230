@@ -1,4 +1,4 @@
-const requestURL = 'https://kevsjones.github.io/wdd230/chamber/data.json';
+const requestURL = 'https://kevsjones.github.io/wdd230/chamber/temples.json';
 
 const cards = document.querySelector('.cards');
 
@@ -7,81 +7,82 @@ fetch(requestURL)
     return response.json();
   })
   .then(function (jsonObject) {
-  console.table(jsonObject);
-  const businesses = jsonObject['businesses'];
-  businesses.forEach(displayCards);
+    console.table(jsonObject);
+    const businesses = jsonObject['businesses'];
+    businesses.forEach(displayCards);
   });
 
-  const lists = document.querySelector('.list');
+const lists = document.querySelector('.list');
 
-  fetch(requestURL)
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (jsonObject) {
+fetch(requestURL)
+  .then(function (response) {
+    return response.json();
+  })
+  .then(function (jsonObject) {
     console.table(jsonObject);
     const businesses = jsonObject['businesses'];
     businesses.forEach(displayList);
-    });
-  
+  });
 
-  function displayCards(business) {
-    let card = document.createElement('section');
-    let name = document.createElement("h2");
-    let phone = document.createElement("p");
-    let address = document.createElement("p");
-    let web = document.createElement("a");
-    let space = document.createElement("p")
-    let logo = document.createElement('img');
 
-    card.setAttribute("id", "tableTitle");
-    name.innerHTML = `${business.name}`;
-    phone.innerHTML = `Phone Number: ${business.phone}`;
-    address.innerHTML = `Address: ${business.address}`;
-    web.innerHTML = `Website: ${business.web}`;
-    space.innerHTML = ``;
-    web.setAttribute('href', business.web);
-    logo.setAttribute('src', business.logo);
-    logo.setAttribute('alt',`Portrait of ${business.name}`);
-    logo.setAttribute('href', `${business.web}`)
-    logo.setAttribute('loading', 'lazy');
+function displayCards(business) {
+  let card = document.createElement('section');
+  let name = document.createElement("h2");
+  let phone = document.createElement("p");
+  let address = document.createElement("p");
+  let web = document.createElement("a");
+  let space = document.createElement("p")
+  let logo = document.createElement('img');
 
-    card.appendChild(name);
-    card.appendChild(phone);
-    card.appendChild(address);
-    card.appendChild(web);
-    card.appendChild(space);
-    card.appendChild(logo);
+  card.setAttribute("id", "tableTitle");
+  name.innerHTML = `${business.name}`;
+  phone.innerHTML = `Phone Number: ${business.phone}`;
+  address.innerHTML = `Address: ${business.address}`;
+  web.innerHTML = `Website: ${business.web}`;
+  space.innerHTML = ``;
+  web.setAttribute('href', business.web);
+  logo.setAttribute('src', business.logo);
+  logo.setAttribute('alt', `Portrait of ${business.name}`);
+  logo.setAttribute('href', `${business.web}`)
+  logo.setAttribute('loading', 'lazy');
 
-    cards.appendChild(card);
+  card.appendChild(name);
+  card.appendChild(phone);
+  card.appendChild(address);
+  card.appendChild(web);
+  card.appendChild(space);
+  card.appendChild(logo);
 
-  }
-  function displayList(business) {
-    let list = document.createElement('section');
-    let name = document.createElement("h3");
-    let phone = document.createElement("p");
-    let address = document.createElement("p");
-    let web = document.createElement("a");
-    let space = document.createElement("p")
-    
+  cards.appendChild(card);
 
-    list.setAttribute("id", "tableTitle");
-    name.innerHTML = `${business.name}`;
-    phone.innerHTML = `Phone Number: ${business.phone}`;
-    address.innerHTML = `Address: ${business.address}`;
-    web.innerHTML = `Website: ${business.web}`;
-    space.innerHTML = ``;
-    web.setAttribute('href', business.web);
-    
-    list.appendChild(name);
-    list.appendChild(phone);
-    list.appendChild(address);
-    list.appendChild(web);
-    list.appendChild(space);
-        
-    lists.appendChild(list);
+}
 
-  }
+function displayList(business) {
+  let list = document.createElement('section');
+  let name = document.createElement("h3");
+  let phone = document.createElement("p");
+  let address = document.createElement("p");
+  let web = document.createElement("a");
+  let space = document.createElement("p")
+
+
+  list.setAttribute("id", "tableTitle");
+  name.innerHTML = `${business.name}`;
+  phone.innerHTML = `Phone Number: ${business.phone}`;
+  address.innerHTML = `Address: ${business.address}`;
+  web.innerHTML = `Website: ${business.web}`;
+  space.innerHTML = ``;
+  web.setAttribute('href', business.web);
+
+  list.appendChild(name);
+  list.appendChild(phone);
+  list.appendChild(address);
+  list.appendChild(web);
+  list.appendChild(space);
+
+  lists.appendChild(list);
+
+}
 
 
 
@@ -89,17 +90,18 @@ function listFunction() {
   document.getElementById('listBtn').add('.active');
   document.querySelector('.view').remove('.cards');
   document.querySelector('.list').add('.active');
-  
+
 }
+
 function gridFunction() {
   document.getElementById('gridBtn').style.color = "#ffc65c";
   document.querySelector('.view').remove('.list');
   document.querySelector('.view').add('.list');
 }
 //function gridFunction() {
-  //document.getElementById('gridBtn').style.color = "black";
-  //document.querySelector('.view').remove('.cards');
-  //document.querySelector('.view').add('.list');
+//document.getElementById('gridBtn').style.color = "black";
+//document.querySelector('.view').remove('.cards');
+//document.querySelector('.view').add('.list');
 //}
 
 /*listview.addEventListener('click', listFunction);
@@ -241,4 +243,4 @@ fetch(jsonfile)
     for(var i = 0; i < cards.length; i++){
         cards[i].style.display = "block";
     }
-  }*/ 
+  }*/
