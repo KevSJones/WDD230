@@ -2,10 +2,10 @@
   "businesses" : [
     {
       "name" : "Adelaide Austrelia Temple",
-      "address" : "8598 E US Highway 36 Avon, IN 46123", 
-      "phone" : "866-348-4674",
-      "web" : "statebank1910.bank",
-      "logo" : "images/statebank.webp"
+      "address": "53-59 Lower Portrush Road | Marden, South Australia 5070 | Australia", 
+      "phone": "(+61) 8-8363-8000",
+      "web": "adelaide.html",
+      "image": "images/temples/adelaide-temple.jpeg"
     },
     {
       "name" : "Hendricks Regional Health",
