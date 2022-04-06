@@ -35,6 +35,7 @@ function displayCards(temple) {
   let services = document.createElement("p");
   let space = document.createElement("p");
   let image = document.createElement('img');
+  let dedication = document.createElement('p');
 
   card.setAttribute("id", "tableTitle");
   name.innerHTML = `${temple.name}`;
