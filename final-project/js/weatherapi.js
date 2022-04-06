@@ -1,5 +1,5 @@
 //ADD the key and change units to imperial
-const apiURL = "//api.openweathermap.org/data/2.5/weather?zip=46123&appid=f773736af542dcf1feeb6e39c290dc42&units=imperial"
+const apiURL = "//api.openweathermap.org/data/2.5/forecast?q=adelaide,AUs&appid=f773736af542dcf1feeb6e39c290dc42&units=imperial"
 
 //Go fetch it and then wait for a response.
 fetch(apiURL)
@@ -8,7 +8,7 @@ fetch(apiURL)
     //Once it comes back, display it to the console.
     console.log(weatherInfo);
 
-    document.getElementById("place").innerHTML=weatherInfo.name;
+    document.getElementById("city").innerHTML=weatherInfo.name;
     document.getElementById("currentTemp").innerHTML=weatherInfo.main.temp;
     document.getElementById("windSpeed").innerHTML=weatherInfo.wind.speed;
    
