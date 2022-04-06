@@ -47,7 +47,7 @@ function displayCards(temple) {
   space.innerHTML = ``;
   web.setAttribute('href', temple.web);
   image.setAttribute('src', temple.image);
-  image.setAttribute('alt', `Portrait of ${temple.name}`);
+  image.setAttribute('alt', `Picture of ${temple.name}`);
   image.setAttribute('href', `${temple.web}`)
   image.setAttribute('loading', 'lazy');
 
@@ -56,13 +56,13 @@ function displayCards(temple) {
   card.appendChild(address);
   card.appendChild(web);
   card.appendChild(space);
-  card.appendChild(logo);
+  card.appendChild(image);
 
   cards.appendChild(card);
 
 }
 
-function displayList(business) {
+function displayList(temple) {
   let list = document.createElement('section');
   let name = document.createElement("h3");
   let phone = document.createElement("p");
