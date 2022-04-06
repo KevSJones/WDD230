@@ -287,6 +287,15 @@ footer {
   display: flex;
   flex-direction: column;
 }
+/* hotel-pages */
+.hotel-pages {
+  display: block;
+}
+.hotel-pages img {
+  width: 100%;
+}
+
+
 
 /* -----------Form------------ */
 
