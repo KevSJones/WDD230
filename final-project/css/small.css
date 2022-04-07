@@ -373,6 +373,8 @@ form label.top input:required:valid {
   border-radius: 12px;
   color: #f2f2f2;
   
+  padding: 4px;
+  
 
 }
 .temple-cards h2 {
@@ -381,14 +383,17 @@ form label.top input:required:valid {
   
   margin: auto;
 }
-
+.temple-cards section{
+  padding: 4px;
+  border: 4px solid #fff;
+  border-radius: 10px;
+}
 .cards a {
   text-decoration: none;
   
   color: #f2f2f2;
-  text-align: center;
   padding: 1em;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .cards :hover {
@@ -397,6 +402,7 @@ form label.top input:required:valid {
 
 .cards p {
   padding: 2%;
+  text-align: center;
 }
 
 .list {

@@ -41,6 +41,7 @@ fetch(requestURL)
     phone.innerHTML = `Phone Number: ${business.phone}`;
     address.innerHTML = `Address: ${business.address}`;
     locale.innerHTML =`Locale: ${business.locale}`;
+    dedication.innerHTML = `Dedicated: ${business.dedication}`
     web.innerHTML = `Click to Book This Location`;
     space.innerHTML = ``;
     web.setAttribute('href', business.web);
@@ -53,6 +54,8 @@ fetch(requestURL)
     card.appendChild(logo);
     card.appendChild(phone);
     card.appendChild(address);
+    card.appendChild(locale);
+    card.appendChild(dedication);
     card.appendChild(web);
     card.appendChild(space);
     

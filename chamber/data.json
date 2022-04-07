@@ -10,81 +10,74 @@
       "dedication": "15 June 2000 by Gordon B. Hinckley"
     },
     {
-      "name" : "Hendricks Regional Health",
-      "address" : "1000 East Main Street Danville, Indiana 46123", 
-      "phone" : "317-745-4451",
-      "web" : "https://www.hendricks.org/",
-      "logo" : "images/hendricks-regional-health.png"
+      "name": "Laie Hawaii Temple",
+      "locale": "Surrounded by lush Hawaiian flora on a gently rising hill that features cascading pools and a large fountain, the Laie Hawaii Temple graces the north shore of Oahu just a half mile from the Pacific Ocean. Travelers along Kamehameha Highway can't miss the striking Hale Laa Boulevard that leads the short distance from the highway to the temple. The exquisite boulevard features a tropical garden on one end and palm trees and decorative lights on the other. Sharing the temple grounds is a highly visited public visitors' center. Down the street is Church-owned Brigham Young University–Hawaii and Hawaii's number-one paid attraction, the Polynesian Cultural Center.",
+      "address": "55-600 Naniloa Loop Laie, Hawaii  96762-1299 United States",
+      "phone": "(+1)808-293-2427",
+      "services": " Clothing rental available, No careteria",
+      "logo": "images/temples/laie-hawaii-temple.jpeg",
+      "dedication": "27-30 November 1919 by Heber J. Grant",
+      "web": "hawaii.html"
     },
     {
-      "name" : "Chick-fil-A",
-      "address" : "10791 E US Highway 36 Avon, IN 46123", 
-      "phone" : "317-271-7760",
-      "web" : "https://www.chick-fil-a.com/locations/in/avon",
-      "logo" : "images/chick-fil-a.jpg"
+      "name": "Nauvoo Illinois Temple",
+      "locale": "The Nauvoo Illinois Temple stands on a high bluff overlooking a bend in the Mississippi River. The majestic building is a faithful reproduction of the original Nauvoo Temple built by settlers of the Church in the 1840s and destroyed by arson fire in 1848 and tornado-force winds in 1850. Featured on the grounds west of the temple is a handsome statue depicting Church founder Joseph Smith and brother Hyrum Smith on horseback; both were martyred in Carthage Jail during construction of the original temple. Nauvoo is rich in Church history and the destination of thousands of tourists each year. The temple operates an accelerated summer schedule to accommodate demand. Summer is also the season of the popular Nauvoo Pageant: A Tribute to Joseph Smith.",
+      "address": "50 North Wells Street | Nauvoo, Illinois 62354 United States",
+      "phone": "(+1)217-453-6252",
+      "services": " Clothing rental available",
+      "image": "images/temples/nauvoo-illinois.jpeg",
+      "dedication": "27-30 June 2002 by Gordon B. Hinckley",
+      "web": "nauvoo.html"
     },
     {
-      "name" : "IU West Hospital",
-      "address" : "1111 N Ronald Reagan Pkwy Avon, IN 46123", 
-      "phone" : "317-217-3000",
-      "web" : "https://iuhealth.org/find-locations/iu-health-west-hospital",
-      "logo" : "images/iuhealth.webp"
+      "name": "Rome Italy Temple",
+      "locale": "The Rome Italy Temple is being built on an elevated 15-acre site in northeast Rome near the Grande Raccordo Anulare, the circular road (beltway) that surrounds the city. The picturesque country site, once adorned by a charming villetta, sits on the outskirts of the city at a freeway interchange. The parcel is punctuated with Roman pines and an exquisite stand of olive trees.Although just a small section of the site was originally permitted for construction of the temple, recent zoning modifications allowed for the entire parcel of land to be used.Building sites in Rome must be examined for Roman ruins before construction is permitted. The inspection is carried out by digging trenches every 10 to 15 feet across the property. The day the temple property was to be inspected, Church members in Rome held a special fast. No ruins were found over the entire property, yet an old Roman village was discovered just 100 yards beyond the property boundary line. The Church purchased the property in the late 1990s.",
+      "address": "Via de Settebagni, 376 Rome Italy",
+      "phone": "(+39)06-9480-5050",
+      "services": " Clothing rental available",
+      "image": "images/temples/rome-italy.jpeg",
+      "dedication": "10-12 March 2019 by Russell M. Nelson",
+      "web": "rome.html"
     },
     {
-      "name" : "Frye Electric",
-      "address" : "141 Casco Dr. Avon, IN 46123", 
-      "phone" : "317-659-6899",
-      "web" : "https://www.fryeelectricinc.com/",
-      "logo" : "images/frye.png"
+      "name": "Salt Lake Temple",
+      "locale": "Positioned on Salt Lake City's center block, known as Temple Square, the spires of the Salt Lake Temple rise amid downtown high-rises and super malls. Sharing the block are the North Visitors' Center and South Visitors' Center; the Tabernacle, home of The Tabernacle Choir at Temple Square; and the Gothic-style Assembly Hall. East of the temple is the masterfully landscaped Main Street Plaza, complete with reflecting pool. Beyond the plaza is the Church's world headquarters, known as the Church Office Building, and the Joseph Smith Memorial Building—a multipurpose Church building, which has become a popular wedding event center. The Church's Conference Center, an architectural masterpiece, lies directly north of the temple. Every holiday season, Temple Square is transformed into a highly popular display of hundreds of thousands of Christmas lights.",
+      "address": "50 West North Temple Street | Salt Lake City, Utah 84150 United States",
+      "phone": "(+1)801-240-2640",
+      "services": " Clothing rental available",
+      "image": "images/temples/salt-lake.jpeg",
+      "dedication": "6-24 April 1893 by Wilford Woodruff",
+      "web": "slc.html"
     },
     {
-      "name" : "Champion Chevrolet",
-      "address" : "183 S Country Road 525 East Avon, IN 46123", 
-      "phone" : "317-520-3718",
-      "web" : "chevyofavon.com",
-      "logo" : "images/championchevy.webp"
+      "name": "São Paulo Brazil Temple",
+      "locale": "Standing in one of the largest cities in the world, the São Paulo Brazil Temple occupies a beautifully landscaped tract of land on the western side of the city near a major shopping mall and Metro station, providing patrons a public transportation option to the temple. Situated on the triangular lot next to the temple are a visitors' center, accommodation center, stake center, and offices for the Brazil Area. The grounds feature a decorative water fountain and colorful flowerbeds.",
+      "address": "Avenida Professor Francisco Morato, 2390 Caxingui 05512-900–São Paulo–São Paulo Brazil",
+      "phone": "(+55)11-3723-7600",
+      "services": " Clothing rental available",
+      "image": "images/temples/São-Paulo-Brazil.jpeg",
+      "dedication": "2 November 1978 by Spencer W. Kimball",
+      "web": "sao-paulo.html"
     },
     {
-      "name" : "Town of Avon",
-      "address" : "6570 E US Highway 36 Avon, IN 46123", 
-      "phone" : "317-272-0948",
-      "web" : "avongov.org",
-      "logo" : "images/townofavon.png"
+      "name": "Tokyo Japan Temple",
+      "locale": "The Tokyo Japan Temple is located in one of the loveliest residential areas of Tokyo across from the lush vegetation of historical Arisugawa Memorial Park. The site was chosen for its location near many schools and embassies. Transportation to the temple is excellent, as only a five-minute walk is required from the Hiroo subway station. Next door to the temple is an annex building that functions as a meetinghouse and a patron housing facility.",
+      "address": "5-8-10 Minami Azabu Minato-Ku Tokyo  106-0047 Japan",
+      "phone": "N/A",
+      "services": " NO clothing rental available",
+      "image": "images/temples/tokyo-japan.jpeg",
+      "dedication": "27-29 October 1980 by Spencer W. Kimball",
+      "web": "tokyo.html"
     },
     {
-      "name" : "Teachers Credit Union",
-      "address" : "P.O. Box 1395 South Bend, IN 46624", 
-      "phone" : "800-552-4745",
-      "web" : "tcunet.com",
-      "logo" : "images/tcu.webp"
-    },
-    {
-      "name" : "Bassett Services Inc.",
-      "address" : "706 W Main Plainfield, IN 46123", 
-      "phone" : "317-623-4163",
-      "web" : "bassettservices.com",
-      "logo" : "images/bassett-logo.png"
-    },
-    {
-      "name" : "Hendricks Power Cooperative",
-      "address" : "86 N County Road 500 E Avon, IN 46123", 
-      "phone" : "317-745-5437",
-      "web" : "hendrickspower.com",
-      "logo" : "images/HPC.png"
-    },
-    {
-      "name" : "Prestwick Country Club",
-      "address" : "5197 Fairway Drive Avon, IN 46123", 
-      "phone" : "317-745-6448",
-      "web" : "prestwickgolf.com",
-      "logo" : "images/prestwick.png"
-    },
-    {
-      "name" : "Opa Greek Restraunt",
-      "address" : "7900 US Hwy. 36 Avon, IN 46123", 
-      "phone" : "317-707-7513",
-      "web" : "opaavonin.com",
-      "logo" : "images/opa.jpg"
+      "name": "Washington D.C. Temple",
+      "locale": "Standing on sprawling grounds about 10 miles north of the United States Capitol, the gold-spired Washington D.C. Temple is a well-known landmark along the Capital Beltway in Kensington, Maryland. The beauty of this soaring edifice is enhanced by a reflection pond near the visitors' center and a spouting water feature at the temple entrance. Sharing the 52-acre wooded site are the Washington D.C. Stake Center and the beautiful Washington D.C. Temple Visitors' Center, which hosts numerous interactive exhibits, a breathtaking reproduction of the Christus statue, and regular lectures and concerts throughout the year. Admission is free. At Christmastime, the grounds are set aglow during the Festival of Lights, which offers nightly concerts, a live nativity scene, and international nativity sets.",
+      "address": "59900 Stoneybroook Drive Kensington, Maryland 20895 United States",
+      "phone": "(+1)301-588-0650",
+      "services": " NO clothing rental available",
+      "image": "images/temples/washington-dc.jpeg",
+      "dedication": "19-22 November 1874 by Spencer W. Kimball",
+      "web": "washington-dc.html"
     }
   ]
 }
