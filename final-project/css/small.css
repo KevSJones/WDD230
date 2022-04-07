@@ -363,65 +363,32 @@ form label.top input:required:valid {
 }
 
 /* directory page */
-.directory {
-  border: solid black;
-  display: block;
-  margin: 10px;
-  border-radius: 15px;
-  text-align: center;
-  box-shadow: 10px 5px 5px grey;
-}
 
-.wrapper {
-  width: 80%;
-  margin: 50px auto;
-  font-size: 200%;
-  margin: 40px;
-  border-radius: 5px;
-}
 
-.links {
-  margin-bottom: 20px;
-  background: #fff;
-  padding: 15px;
-  border-radius: 3px;
-}
-
-.links ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.links ul li {
-  margin: 0 15px;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  cursor: pointer;
-}
-
-.links ul li:hover,
-.links ul li.active {
-  color: #ffc65c;
-}
-
-.hide {
-  display: none;
-}
-
-.cards {
+.temple-cards {
   display: grid;
-  grid-gap: 5px;
+
   margin: 6px;
   grid-template-columns: 1fr;
-  border-radius: 1rem;
+  border-radius: 12px;
+  color: #f2f2f2;
+  
 
+}
+.temple-cards h2 {
+  text-align: center;
+  padding: 1em;
+  
+  margin: auto;
 }
 
 .cards a {
   text-decoration: none;
-  color: black;
+  
+  color: #f2f2f2;
+  text-align: center;
+  padding: 1em;
+  font-size: 24px;
 }
 
 .cards :hover {

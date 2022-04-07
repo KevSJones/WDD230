@@ -2,10 +2,12 @@
   "businesses" : [
     {
       "name" : "Adelaide Austrelia Temple",
-      "address": "53-59 Lower Portrush Road | Marden, South Australia 5070 | Australia", 
+      "address": "53-59 Lower Portrush Road | Marden, South Australia 5070 | Australia",
+      "locale": "Located just a few miles northeast of Adelaide's city center in the suburb of Marden, the Adelaide Australia Temple stands next to a college campus on Lower Portrush Road, a major route through suburban Adelaide. The granite edifice, capped with a gold-leafed statue of the angel Moroni, is surrounded by trees and gardens with gathering plazas on each of the four sides of the building.", 
       "phone": "(+61) 8-8363-8000",
       "web": "adelaide.html",
-      "logo": "images/temples/adelaide-temple.jpeg"
+      "logo": "images/temples/adelaide-temple.jpeg",
+      "dedication": "15 June 2000 by Gordon B. Hinckley"
     },
     {
       "name" : "Hendricks Regional Health",
