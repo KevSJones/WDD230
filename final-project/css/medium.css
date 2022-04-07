@@ -148,5 +148,9 @@ footer {
   width: 80%;
 
 }
+.missionary-page {
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
 
 /* end medium */

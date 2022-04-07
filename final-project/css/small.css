@@ -298,16 +298,18 @@ footer {
 
 
 /* -----------Form------------ */
-
+form {
+  margin: 1em;
+}
 form fieldset {
   margin: 2rem 0;
-  border: 1px solid #206080;
+  border: 1px solid #0d0d0d;
   border-radius: 10px;
   padding: .5rem 2%;
 }
 
 form legend {
-  color: #206080;
+  color: #0d0d0d;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
@@ -343,10 +345,13 @@ form label.sbs {
   padding: .75rem 0;
   color: #555;
 }
+img {
+  margin: 0;
+}
 
 form input.submitBtn {
   border: none;
-  background-color: #ffc65c;
+  background-color: #727272;
 
   border-radius: 1rem;
   padding: .75rem 1.5rem;
@@ -355,11 +360,14 @@ form input.submitBtn {
 }
 
 form label.top input:required {
-  border: #ffc65c solid 3px;
+  border: rgb(16, 16, 46) solid 3px;
 }
 
 form label.top input:required:valid {
   border: #206080 solid 1px;
+}
+.reservation-page {
+  grid-template-columns: 1fr 1fr;
 }
 
 /* directory page */
@@ -395,12 +403,12 @@ form label.top input:required:valid {
   text-decoration: none;
   text-align: center;
   color: #f2f2f2;
-  padding: 1em;
+  padding: 10%;
   font-size: 30px;
 }
 
 .cards section:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .cards p {
@@ -417,6 +425,16 @@ form label.top input:required:valid {
 .list a {
   text-decoration: none;
   color: black;
+}
+.planning {
+  padding: 1em;
+  background-image: none;
+}
+.planning img {
+  width: 100%;
+}
+.planning form {
+  background: #f2f2f2;
 }
 
 /* Contact Page */
@@ -445,18 +463,31 @@ form label.top input:required:valid {
 }
 
 .getintouchtitle legend {
-  color: #206080;
+  color: #0d0d0d;
   margin: 0 1rem;
   padding: 0 .5rem;
 }
 
 .boardofdirectors legend {
-  color: #206080;
+  color: #0d0d0d;
   margin: 0 1rem;
   padding: 0 0.5rem;
 }
 
 .boardofdirectors a {
   text-decoration: none;
-  color: #206080;
+  color: #0d0d0d;
+}
+.missionary-page section {
+  background-color: #f2f2f2;
+  text-align: center;
+  padding: 1em;
+  border-radius: 10px;
+  border: solid black 2px;
+  margin: 3px;
+  max-height: 960px;
+  padding: 1em;
+}
+.missionary-page img {
+  width: 100%;
 }

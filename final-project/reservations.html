@@ -59,13 +59,35 @@
         <a href="twitter.com"><img src="images/twitter-small.png" alt="Twitter"></a></div>
       <div id="date">This is the current day!</div>
     </header>
-      
-      <div id="reminder">Please come join us for the chamber meet and greet Wednesday at 7:00p.m.</div>
 
-      
-      
-    
-    <main>
+    <div id="reminder">Special FHE deals! Call for discounts.</div>
+  
+    <main class="reservation-page">
+      <form method="get" action="thankyou.html">
+        <fieldset>
+            <legend>Patron Information</legend>
+            <label class="top">First Name*<input type="text" name="fname" required></label> 
+            <label class="top">Last Name*<input type="text" name="lname" required></label> 
+            <label class="top">Phone*<input type="tel" name="phone" placeholder="1235551234" required></label> 
+            <label class="top">Email*<input type="email" name="email" placeholder="someone@gmail.com" required></label> 
+             
+        </fieldset>
+        <fieldset>
+          <legend>Booking</legend>
+          <div></div>
+          <label class="top">Check-In*<input type="date" name="company" required></label>
+          <label class="top">Check-Out*<input type="date" name="company" required></label>
+          <label class="top">Special Requests<textarea type="textarea" name="description" ></textarea>
+          
+        </fieldset>
+        
+
+        
+        <input type="submit" value="Book Your Trip" class="submitBtn">
+
+    </form>
+
+    <img src="images/entrance/sao-paulo-hotel.jpg" alt="">
      
      
     </main>
