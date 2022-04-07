@@ -32,6 +32,7 @@ fetch(requestURL)
     let address = document.createElement("p");
     let locale = document.createElement("p");
     let dedication = document.createElement("p");
+    let services = document.createElement("p");
     let web = document.createElement("a");
     let space = document.createElement("p")
     let logo = document.createElement('img');
@@ -41,6 +42,7 @@ fetch(requestURL)
     phone.innerHTML = `Phone Number: ${business.phone}`;
     address.innerHTML = `Address: ${business.address}`;
     locale.innerHTML =`Locale: ${business.locale}`;
+    services.innerHTML = `Services: ${business.services}`
     dedication.innerHTML = `Dedicated: ${business.dedication}`
     web.innerHTML = `Click to Book This Location`;
     space.innerHTML = ``;

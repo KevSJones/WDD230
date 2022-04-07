@@ -108,26 +108,14 @@
   }
 
 
-  /* discover page */
-  .discover-main {
-    margin: 0 20% 0 20%;
-    align-items: center;
-  }
-
-  .discover {
-    align-items: center;
-  }
-
-  .discover-image:hover {
-    box-shadow: 0 0 50px #333;
-
-  }
+  
 
   .cards {
     display: grid;
 
     grid-template-columns: 1fr 1fr;
   }
+  
 
   /* Contact Page */
   .contact-page {

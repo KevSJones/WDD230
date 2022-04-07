@@ -25,7 +25,7 @@
       "address": "50 North Wells Street | Nauvoo, Illinois 62354 United States",
       "phone": "(+1)217-453-6252",
       "services": " Clothing rental available",
-      "image": "images/temples/nauvoo-illinois.jpeg",
+      "logo": "images/temples/nauvoo-illinois.jpeg",
       "dedication": "27-30 June 2002 by Gordon B. Hinckley",
       "web": "nauvoo.html"
     },
@@ -35,7 +35,7 @@
       "address": "Via de Settebagni, 376 Rome Italy",
       "phone": "(+39)06-9480-5050",
       "services": " Clothing rental available",
-      "image": "images/temples/rome-italy.jpeg",
+      "logo": "images/temples/rome-italy.jpeg",
       "dedication": "10-12 March 2019 by Russell M. Nelson",
       "web": "rome.html"
     },
@@ -45,7 +45,7 @@
       "address": "50 West North Temple Street | Salt Lake City, Utah 84150 United States",
       "phone": "(+1)801-240-2640",
       "services": " Clothing rental available",
-      "image": "images/temples/salt-lake.jpeg",
+      "logo": "images/temples/salt-lake.jpeg",
       "dedication": "6-24 April 1893 by Wilford Woodruff",
       "web": "slc.html"
     },
@@ -55,7 +55,7 @@
       "address": "Avenida Professor Francisco Morato, 2390 Caxingui 05512-900–São Paulo–São Paulo Brazil",
       "phone": "(+55)11-3723-7600",
       "services": " Clothing rental available",
-      "image": "images/temples/São-Paulo-Brazil.jpeg",
+      "logo": "images/temples/São-Paulo-Brazil.jpeg",
       "dedication": "2 November 1978 by Spencer W. Kimball",
       "web": "sao-paulo.html"
     },
@@ -65,7 +65,7 @@
       "address": "5-8-10 Minami Azabu Minato-Ku Tokyo  106-0047 Japan",
       "phone": "N/A",
       "services": " NO clothing rental available",
-      "image": "images/temples/tokyo-japan.jpeg",
+      "logo": "images/temples/tokyo-japan.jpeg",
       "dedication": "27-29 October 1980 by Spencer W. Kimball",
       "web": "tokyo.html"
     },
@@ -75,7 +75,7 @@
       "address": "59900 Stoneybroook Drive Kensington, Maryland 20895 United States",
       "phone": "(+1)301-588-0650",
       "services": " NO clothing rental available",
-      "image": "images/temples/washington-dc.jpeg",
+      "logo": "images/temples/washington-dc.jpeg",
       "dedication": "19-22 November 1874 by Spencer W. Kimball",
       "web": "washington-dc.html"
     }
